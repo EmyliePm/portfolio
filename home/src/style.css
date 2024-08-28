@@ -1,0 +1,77 @@
+body {
+  background-image: url("../src/images/astro_01.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.myName {
+  color: white;
+  font-family: "Briem Hand", cursive, sans-serif;
+  font-size: 60px;
+  max-width: 700px;
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
+
+.sidebarContainer {
+  color: white;
+  font-family: "Briem Hand", cursive, sans-serif;
+  font-size: 30px;
+  line-height: 300%;
+  max-width: 300px;
+  box-shadow: 0 30px 50px black;
+  border-radius: 16px;
+  padding: 30px;
+  padding-top: 0px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.inroductionSkills {
+  font-family: "Briem Hand", cursive, sans-serif;
+  max-width: 700px;
+  margin: 10px auto;
+  color: white;
+}
+.lightThemeButton {
+  font-size: 15px;
+  background: rgba(140, 23, 155, 0.26);
+  color: rgba(255, 255, 255, 0.699);
+  display: flex;
+  box-shadow: black;
+  border-radius: 16px;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: 45px;
+  font-family: "Briem Hand", cursive, sans-serif;
+}
+
+.lightThemeButton:hover {
+  color: black;
+  background: white;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 200ms ease-in-out;
+}
+
+.light {
+  background-image: url("../src/images/asrto_white.jpg");
+}
+.light .sidebarContainer {
+  background: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.514);
+}
