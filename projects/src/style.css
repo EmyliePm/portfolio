@@ -50,7 +50,9 @@ body {
   aspect-ratio: 1.5;
 }
 .potatoImage:hover,
-.pcImage:hover {
+.weatherAppImage:hover,
+.worldClockImage:hover,
+.poemImage:hover {
   transition: all 150ms ease-in-out;
   filter: contrast(90%);
   transform: scale(1.1);
