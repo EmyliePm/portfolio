@@ -19,5 +19,5 @@ export const dialogueData = {
   fridge: "love to cook! So yummy!",
   table: "Hosting dinner paries and having games nights is a blast!",
   sofa: "not much of a lounger....",
-  jack: "My best friend Jack, is my brother. My other best friend, Jack, is my husband. Not related.",
+  Jack: "My best friend Jack, is my brother. My other best friend, Jack, is my husband. Not related.",
 };
