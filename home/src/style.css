@@ -27,18 +27,20 @@ body {
   color: rgb(101, 20, 177);
 }
 .sidebarContainer {
-  color: white;
+  background-color: #181818;
   font-family: "Poppins", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 300%;
-  max-width: 300px;
+  max-width: 250px;
   box-shadow: 0 30px 50px black;
   border-radius: 16px;
-  padding: 30px;
-  padding-top: 0px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
   box-sizing: border-box;
-  margin-left: auto;
-  margin-right: 0;
+  position: fixed;
+  top: 300px;
+  right: 10px;
 }
 
 .inroductionSkills {
@@ -51,7 +53,9 @@ body {
   font-size: 15px;
   background: rgba(101, 20, 177, 0.418);
   color: rgba(255, 255, 255, 0.699);
-  display: flex;
+  position: fixed;
+  top: 700px;
+  right: 1px;
   box-shadow: black;
   border-radius: 16px;
   padding: 5px;
@@ -78,14 +82,18 @@ body {
   color: rgba(0, 0, 0, 0.514);
 }
 a:link {
-  color: white;
+  color: rgba(101, 20, 177, 0.726);
   text-decoration: none;
 }
 a:visited {
-  color: white;
+  color: rgba(101, 20, 177, 0.726);
   text-decoration: none;
 }
 a:hover {
-  color: rgba(101, 20, 177, 0.418);
+  color: rgb(101, 20, 177);
   text-decoration: underline;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
 }
