@@ -94,10 +94,8 @@ ul {
   transition: all 0.4s ease-in-out;
   align-self: auto;
 }
+
 .skill-image {
   width: 51px;
   height: 51px;
-}
-.skill-text:hover {
-  border: ;
 }
