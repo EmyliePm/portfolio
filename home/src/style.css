@@ -1,5 +1,5 @@
 body {
-  background-image: url("../src/images/astro_01.jpg");
+  background: linear-gradient(#c2c3da, #665770);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -10,9 +10,9 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  margin: 0;
+  margin: 100px;
   padding: 0;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .myName {
@@ -24,10 +24,10 @@ body {
   margin: 20px auto 10px auto;
 }
 .emylie {
-  color: rgb(101, 20, 177);
+  color: rgb(135, 68, 197);
 }
 .sidebarContainer {
-  background-color: #181818;
+  background: linear-gradient(270deg, rgb(135, 68, 197), rgb(101, 67, 133));
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   line-height: 300%;
@@ -49,7 +49,7 @@ body {
   margin: 10px auto;
   color: white;
 }
-.lightThemeButton {
+.darkThemeButton {
   font-size: 15px;
   background: rgba(101, 20, 177, 0.418);
   color: rgba(255, 255, 255, 0.699);
@@ -66,7 +66,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.lightThemeButton:hover {
+.darkThemeButton:hover {
   color: black;
   background: white;
   cursor: pointer;
@@ -74,21 +74,19 @@ body {
   transition: all 200ms ease-in-out;
 }
 
-.light {
-  background-image: url("../src/images/asrto_white.jpg");
+.dark {
+  background: black;
 }
-.light .sidebarContainer {
-  background: rgba(255, 255, 255, 0.5);
-  color: rgba(0, 0, 0, 0.514);
+.dark .sidebarContainer {
+  background: black;
+  color: rgba(0, 0, 0, 0.267);
 }
-a:link {
-  color: rgba(101, 20, 177, 0.726);
-  text-decoration: none;
-}
+a:link,
 a:visited {
-  color: rgba(101, 20, 177, 0.726);
+  color: white;
   text-decoration: none;
 }
+
 a:hover {
   color: rgb(101, 20, 177);
   text-decoration: underline;
@@ -96,4 +94,15 @@ a:hover {
 }
 ul {
   list-style-type: none;
+}
+.image-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 800px) {
+  .image-left {
+    width: 80vw;
+  }
 }

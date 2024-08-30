@@ -28,13 +28,13 @@ typewriter
 
 function changeTheme() {
   let body = document.querySelector("body");
-  body.classList.toggle("light");
-  let buttonText = document.querySelector(".lightThemeButton");
-  if (body.classList.contains("light")) {
-    buttonText.innerHTML = "Dark Theme";
-  } else {
+  body.classList.toggle("dark");
+  let buttonText = document.querySelector(".darkThemeButton");
+  if (body.classList.contains("dark")) {
     buttonText.innerHTML = "Light Theme";
+  } else {
+    buttonText.innerHTML = "Dark Theme";
   }
 }
-let themeButton = document.querySelector(".lightThemeButton");
+let themeButton = document.querySelector(".darkThemeButton");
 themeButton.addEventListener("click", changeTheme);
