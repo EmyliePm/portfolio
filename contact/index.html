@@ -21,7 +21,40 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    testing
+    <div class="contact-container">
+      <form action="" class="contact-left">
+        <div class="contact-left-title">
+          <h2>Get in touch</h2>
+          <hr />
+        </div>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="contact-inputs"
+          required
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="contact-inputs"
+          required
+        />
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          class="contact-inputs"
+          required
+        ></textarea>
+        <button type="submit">
+          Submit <img src="src/images/arrow_icon.png" alt="arrow" />
+        </button>
+      </form>
+      <div class="contact-right">
+        <img src="src/images/astroMail.png" alt="email" />
+      </div>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
