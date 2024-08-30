@@ -1,5 +1,6 @@
 body {
-  background: white;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(#c2c3da, #665770);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -8,7 +9,6 @@ body {
   user-select: none;
 }
 .container {
-  font-family: "Poppins", sans-serif;
   line-height: 30px;
   padding-top: 40px;
   color: #3f1e53;
@@ -23,7 +23,7 @@ body {
   font-size: 80px;
 }
 .my {
-  color: #c2c3da;
+  color: #9076a186;
 }
 .grid {
   display: grid;
@@ -37,14 +37,42 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
+  position: relative;
 }
-.potatoImage:hover,
-.weatherAppImage:hover,
-.worldClockImage:hover,
-.poemImage:hover {
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
   transition: all 150ms ease-in-out;
-  filter: contrast(90%);
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  background-color: #665770;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+  text-align: center;
+  width: 100%;
+}
+
+.image-container:hover .image {
+  filter: contrast(50%);
   transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
 }
 header {
   position: fixed;
