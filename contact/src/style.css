@@ -85,3 +85,26 @@ body {
     display: none;
   }
 }
+a:link {
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+}
+
+.goHome {
+  display: flex;
+  padding: 5px;
+  max-width: 80px;
+}
