@@ -7,6 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: linear-gradient(#4b4e81, #3f1e53);
+  user-select: none;
 }
 
 .contact-container {

@@ -6,6 +6,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-repeat: no-repeat;
+  user-select: none;
 }
 header {
   position: fixed;
@@ -93,6 +94,7 @@ ul {
   padding-block: 4px;
   transition: all 0.4s ease-in-out;
   align-self: auto;
+  user-select: none;
 }
 
 .skill-image {

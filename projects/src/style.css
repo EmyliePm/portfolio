@@ -5,39 +5,36 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-repeat: no-repeat;
+  user-select: none;
 }
 .container {
   font-family: "Poppins", sans-serif;
   line-height: 30px;
   padding-top: 25px;
-  color: rgba(255, 255, 255, 0.87);
+  color: #3f1e53;
   text-align: center;
 }
 .projectContainer {
-  margin-top: 13px;
-  margin-left: 200px;
-  margin-right: 200px;
-  display: block;
+  display: flex;
+  justify-content: center;
   padding: 0px;
-  border-radius: 10px;
 }
 .title {
   font-size: 80px;
 }
-.projectTitle {
-  color: rgb(101, 20, 177);
+.my {
+  color: #c2c3da;
 }
 .grid {
-  margin: 15px 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
+  grid-gap: 100px;
 }
 .grid img {
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 18px;
   aspect-ratio: 1.5;
 }
 .potatoImage:hover,
