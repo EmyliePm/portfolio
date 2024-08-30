@@ -1,4 +1,5 @@
 body {
+  font-family: poppins, monospace;
   background: white;
   background-size: cover;
   display: flex;
@@ -62,4 +63,41 @@ ul {
   header {
     filter: none;
   }
+}
+.container {
+  background: linear-gradient(#c2c3da, #665770);
+  padding: 1rem 18rem;
+}
+.title {
+  font-size: 60px;
+  text-align: center;
+}
+.headings {
+  font-size: 40px;
+  text-align: center;
+}
+.skill-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill-text {
+  background: rgba(255, 255, 255, 0.678);
+  display: flex;
+  border: 1px solid;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2%;
+  width: 200px;
+  padding-block: 4px;
+  transition: all 0.4s ease-in-out;
+  align-self: auto;
+}
+.skill-image {
+  width: 51px;
+  height: 51px;
+}
+.skill-text:hover {
+  border: ;
 }
