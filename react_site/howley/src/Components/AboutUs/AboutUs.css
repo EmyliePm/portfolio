@@ -1,0 +1,21 @@
+.workers {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.worker img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+.worker {
+  flex-basis: 31%;
+  position: relative;
+}
+.caption {
+  border-radius: 10px;
+  position: absolute;
+}

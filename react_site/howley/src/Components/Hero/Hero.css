@@ -1,0 +1,26 @@
+.hero {
+  height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(rgba(9, 7, 20, 0.7), rgba(8, 0, 58, 0.7)),
+    url("../../assets/milada-vigerova-pQMM63GE7fo-unsplash.jpg");
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.hero-text p {
+  max-width: 700px;
+  margin: 10px auto 20px;
+  line-height: 1.4;
+}
