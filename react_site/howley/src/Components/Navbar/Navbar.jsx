@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/letter-p.png";
 
 const Navbar = () => {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 100 ? setSticky(true) : setSticky(false);
+    });
+  }, []);
   return (
-    <nav class="container">
+    <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       {" "}
-      {/* Paul Howley & Co */}
       <img src={logo} alt="logo" class="logo"></img>
       <ul>
         <li>Home</li>
