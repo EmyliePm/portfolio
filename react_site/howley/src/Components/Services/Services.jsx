@@ -14,7 +14,7 @@ const Services = () => {
         <h3>Services We Offer</h3>
         <h2>Invaluable financial insights and solutions</h2>
         <p>
-          Providing exception services by offering expert financial analysis,
+          Providing exceptional services by offering expert financial analysis,
           strategic tax planning, and personalized advice that streamline
           business operations and maximize financial success.
         </p>
