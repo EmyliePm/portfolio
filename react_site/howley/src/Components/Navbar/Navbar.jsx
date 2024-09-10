@@ -10,7 +10,7 @@ const Navbar = () => {
       <img src={logo} alt="logo" class="logo"></img>
       <ul>
         <li>Home</li>
-        <li>Why Us</li>
+        <li>About Us</li>
         <li>Services</li>
         <li>Resources</li>
         <li>News</li>
