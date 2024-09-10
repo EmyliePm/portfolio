@@ -16,7 +16,11 @@
   position: relative;
 }
 .caption {
+  /* color: black; */
   color: white;
+  font-weight: 800;
+  font-size: 25px;
+  font-family: poppins, monospace;
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -30,10 +34,10 @@
   flex-direction: column;
   cursor: pointer;
   opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s ease-in-out;
 }
-.caption p {
-  margin-top: 20px;
-}
+
 .caption img {
   width: 100px;
   height: 100px;
@@ -41,4 +45,5 @@
 }
 .worker:hover .caption {
   opacity: 1;
+  padding-top: 0;
 }
