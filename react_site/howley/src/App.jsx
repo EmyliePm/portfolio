@@ -6,6 +6,7 @@ import Title from "./Components/Title/title";
 import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Testimonials />
         <Title subTitle="Contact Us" title="Book a free consultation now!" />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
