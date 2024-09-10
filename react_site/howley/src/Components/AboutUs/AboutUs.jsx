@@ -9,7 +9,7 @@ import workerIcon3 from "../../assets/presentation.png";
 
 const AboutUs = () => {
   return (
-    <div className="workers">
+    <div className="workers" id="about">
       <div className="worker">
         <img src={worker1} alt="worker"></img>{" "}
         <div className="caption">
