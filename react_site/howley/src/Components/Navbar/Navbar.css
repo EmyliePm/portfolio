@@ -24,3 +24,7 @@ nav ul li {
   background-color: rgb(17, 70, 17);
   transition: 0.5s;
 }
+/* media query */
+@media (max-width: 1000px){
+
+}
