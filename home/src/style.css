@@ -123,3 +123,17 @@ ul {
     width: 80vw;
   }
 }
+.jupiter {
+  align-items: flex-start;
+  width: 200px;
+  animation: floatUp 5s ease-in-out forwards;
+}
+
+@keyframes floatUp {
+  100% {
+    transform: translateY(-100vh);
+  }
+  0% {
+    transform: translateY(100%);
+  }
+}
