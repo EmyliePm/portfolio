@@ -131,7 +131,7 @@ ul {
 
 @keyframes floatUp {
   100% {
-    transform: translateY(-100vh);
+    transform: translateY(-120vh);
   }
   0% {
     transform: translateY(100%);
