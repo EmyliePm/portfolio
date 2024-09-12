@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(#c2c3da, #665770);
+  background: linear-gradient(#79668f, #3f1e53);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ body {
   font-size: 80px;
 }
 .my {
-  color: #9076a186;
+  color: #00000086;
 }
 .grid {
   display: grid;
