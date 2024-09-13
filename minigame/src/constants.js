@@ -9,8 +9,8 @@ export const dialogueData = {
   water: "Complete fear of deep water. Love a bubble bath though.",
   ghost: "Never seen a ghost. Spooked.",
   love: "love to my family and friends",
-  contact: "check out how to contact me on here",
-  exit: "if you want to exit this mini-game, close the tab",
+  contact: `check out how to contact me on <a href="https://emyliepm.netlify.app/">here</a>`,
+  exit: `if you want to exit this mini-game, close the tab, or  <a href="https://emyliepm.netlify.app/">go home</a>`,
   projects: "Check out more projects, from python to more JS!",
   degree: "I have  Masters in Physics. We used Matlab a lot......",
   bookcase:
