@@ -13,7 +13,10 @@ const Hero = () => {
           solutions and personalised service.
         </p>
         <button className="btn">
-          Explore More <img src={dark_arrow} alt="arrow"></img>
+          <a href="https://www.paulhowley.co.uk//why_us/meet_the_team.php">
+            Explore More
+          </a>
+          <img src={dark_arrow} alt="arrow"></img>
         </button>
       </div>
     </div>
